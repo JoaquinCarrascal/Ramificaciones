@@ -19,6 +19,9 @@ public class ppal {
 		System.out.println(resultado);
 		System.out.println("Pensado para ramificarse.");
 		
+		resultado = var1 % var2; 
+		System.out.println(resultado);
+		
 
 		sc.close();
 	}
