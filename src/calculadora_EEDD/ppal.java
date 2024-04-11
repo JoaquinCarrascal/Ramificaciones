@@ -18,6 +18,9 @@ public class ppal {
 		resultado = var1 + var2; 
 		System.out.println(resultado);
 		
+		resultado = var1 % var2; 
+		System.out.println(resultado);
+		
 
 		sc.close();
 	}
