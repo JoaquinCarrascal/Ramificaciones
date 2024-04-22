@@ -149,3 +149,42 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:27:48.798
+!MESSAGE Classpath changed for project: ramas-spring-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:27:48.805
+!MESSAGE Boot project ADDED: ramas-spring-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:27:48.806
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:27:48.848
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-22 13:27:48.874
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\carrascal.frjoa24_tr\Desktop\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\Users\carrascal.frjoa24_tr\Desktop\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\carrascal.frjoa24_tr\Desktop\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\carrascal.frjoa24_tr\Desktop\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/carrascal.frjoa24_tr/Desktop/repoProg/Ramificaciones/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1713785268870
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:27:48.874
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:27:48.939
+!MESSAGE Classpath changed for project: ramas-spring-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-22 13:27:49.026
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3828
