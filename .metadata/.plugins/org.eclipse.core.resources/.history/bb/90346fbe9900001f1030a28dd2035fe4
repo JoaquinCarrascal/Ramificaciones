@@ -1,0 +1,11 @@
+package com.salesianostriana.edu.ramasspring1;
+
+@controller+
+public class controller {
+
+	@GetMapping("/")
+	public String holaMundo() {
+		return "index";
+	}
+	
+}
